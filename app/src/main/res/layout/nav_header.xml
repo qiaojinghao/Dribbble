@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_large"
+    android:background="@color/colorPrimary">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/nav_header_user_pic"
+        android:layout_width="@dimen/nav_header_user_picture_size"
+        android:layout_height="@dimen/nav_header_user_picture_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/spacing_medium"
+        fresco:placeholderImage="@drawable/picture_placeholder"
+        fresco:placeholderImageScaleType="centerCrop"
+        fresco:roundAsCircle="true"/>
+
+    <TextView
+        android:id="@+id/nav_header_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Username"
+        android:layout_toRightOf="@id/nav_header_user_pic"
+        android:layout_alignTop="@id/nav_header_user_pic"
+        style="@style/AppTheme.TextView.Clickable.2.White"/>
+    <TextView
+        android:id="@+id/nav_header_logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/log_out"
+        android:layout_toRightOf="@id/nav_header_user_pic"
+        android:layout_alignBottom="@id/nav_header_user_pic"
+        style="@style/AppTheme.TextView.Clickable.2.White"
+        />
+
+</RelativeLayout>

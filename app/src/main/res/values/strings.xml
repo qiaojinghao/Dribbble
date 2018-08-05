@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dribbble</string>
+    <string name="drawer_menu_home"> Home</string>
+    <string name="draw_menu_likes">Likes</string>
+    <string name="draw_menu_buckets">Buckets</string>
+    <string name="title_home"> Dribbble</string>
+    <string name="title_likes"> Likes</string>
+    <string name="title_buckets"> Buckets</string>
+    <string name="drawer_open"> Open navigation drawer</string>
+    <string name="drawer_close"> Close navigation drawer</string>
+    <string name="shot_image">Shot image</string>
+    <string name="shot_count">{0,choice,0#0 shot|1#1 shot|1&lt;{0} shots}</string>
+    <string name="like">like</string>
+    <string name="bucket">Bucket</string>
+    <string name="share">Share</string>
+    <string name="dribbble_icon">Dribbble icon</string>
+    <string name="log_in_dribbble">Log in dribbble</string>
+    <string name="auth_activity_title">Log into Dribbble</string>
+    <string name="log_out">log out</string>
+</resources>

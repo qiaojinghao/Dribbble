@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="@dimen/login_icon"
+        android:layout_height="@dimen/login_icon"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/dribbble_icon"/>
+
+    <TextView
+        android:id="@+id/activity_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium"
+        style="@style/AppTheme.TextView.Clickable.2.White"
+        android:text="@string/log_in_dribbble" />
+
+</LinearLayout>
