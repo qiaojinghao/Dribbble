@@ -110,8 +110,8 @@ public class ShotListFragment extends Fragment{
         }
     }
 
-
-
+    // Because Dribbble API v1 is not available now, and most requests in API v2 need to
+    // get approval of Dribbble. So I made some fake date to demonstrate this app.
     private List<Shot> fakeData(int page) {
         int count = page<3? COUNT_PER_PAGE:COUNT_FINAL_PAGE;
 
